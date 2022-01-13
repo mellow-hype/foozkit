@@ -1,0 +1,16 @@
+POST /soap/server_sa HTTP/1.1
+Host: 10.13.13.1
+Accept: text/xml
+Accept: multipart/*
+Accept: application/soap
+User-Agent: SOAP::Lite/Perl/1.09
+Content-Type: text/xml; charset=utf-8
+Content-Length: 595
+Cookie: auth_token=asdfasdfasdf
+SOAPAction: ""
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope 
+</soap:Envelope>
+
